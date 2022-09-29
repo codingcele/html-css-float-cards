@@ -31,11 +31,13 @@ p {
 }
 
 .tab {
-    margin-top: 40px;;
+    margin-top: 40px;
+    height: 300px;
 }
 
 .cell{
     background-color: rgb(31, 30, 30);
+    display: inline-block;
 }
 
 img {
@@ -49,12 +51,38 @@ img {
 .texts {
     position: absolute;
     display: inline-block;
-    margin-left: 5px;
-    top: 50%;
-    bottom: 50%;
+    margin-left: 10px;
+    margin-top: 14px;
 }
 
 .titles {
     font-family: "Fredoka one";
     color: white;
+}
+
+.prof, .mail {
+    font-family: verdana;
+    font-size: 13px;
+}
+
+.prof {
+    color: white;
+}
+
+.mail {
+    color: rgb(83, 80, 255);
+}
+
+.one {
+    float: left;
+}
+
+.two {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thr {
+    float: right;
 }
