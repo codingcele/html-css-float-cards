@@ -22,22 +22,19 @@ main {
 }
 
 p {
+    margin-bottom: 40px;
     text-align: center;
     font-family: verdana;
 }
 
-.cell {
-    width: 300px;
-}
-
-.tab {
-    margin-top: 40px;
-    height: 300px;
+.row {
+    height: 130px;
     position: relative;
 }
 
 .cell {
-    width: 300px;
+    border: 3px solid rgba(255,255,255,0.9);
+    width: 340px;
     background-color: rgb(31, 30, 30);
     position: absolute;
 }
@@ -80,7 +77,7 @@ img {
 }
 
 .two {
-    left: calc(1079-(300/2);
+    left: 369.5px;
 }
 
 .thr {
