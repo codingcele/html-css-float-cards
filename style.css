@@ -33,11 +33,13 @@ p {
 .tab {
     margin-top: 40px;
     height: 300px;
+    position: relative;
 }
 
-.cell{
+.cell {
+    width: 300px;
     background-color: rgb(31, 30, 30);
-    display: inline-block;
+    position: absolute;
 }
 
 img {
@@ -74,15 +76,13 @@ img {
 }
 
 .one {
-    float: left;
+    left: 8px;
 }
 
 .two {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    left: calc(1079-(300/2);
 }
 
 .thr {
-    float: right;
+    right: 8px;
 }
