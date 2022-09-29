@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header {
+    margin-top: 20px;
+}
+
 h1 {
     font-family: "Fredoka one";
     text-align: center;
@@ -20,4 +24,37 @@ main {
 p {
     text-align: center;
     font-family: verdana;
+}
+
+.cell {
+    width: 300px;
+}
+
+.tab {
+    margin-top: 40px;;
+}
+
+.cell{
+    background-color: rgb(31, 30, 30);
+}
+
+img {
+    height: 80px;
+}
+
+.image {
+    display: inline-block;
+}
+
+.texts {
+    position: absolute;
+    display: inline-block;
+    margin-left: 5px;
+    top: 50%;
+    bottom: 50%;
+}
+
+.titles {
+    font-family: "Fredoka one";
+    color: white;
 }
